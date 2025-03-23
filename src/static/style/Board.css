@@ -1,0 +1,22 @@
+.board {
+    display: grid;
+    grid-template-columns: repeat(3, 80px);
+    grid-template-rows: repeat(3, 80px);
+    gap: 5px;
+    margin: 20px auto;
+    width: fit-content;
+    opacity: 0;
+    animation: fadeIn 0.8s ease-in-out forwards
+}
+
+/* Fade-in animation for the board */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: scale(0.8);
+    }
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}

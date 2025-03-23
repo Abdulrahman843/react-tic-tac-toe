@@ -1,0 +1,22 @@
+.square {
+    width: 80px;
+    height: 80px;
+    font-size: 30px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid black;
+    cursor: pointer;
+    background-color: white;
+    transition: background 0.3s ease, transform 0.2s;
+}
+
+.square:hover {
+    background-color: #f3f3f3;
+}
+
+.winning-square {
+    background-color: lightgreen !important;
+    animation: pulse 1s infinite alternate;
+}
