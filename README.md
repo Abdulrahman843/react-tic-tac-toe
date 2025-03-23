@@ -1,70 +1,91 @@
-# Getting Started with Create React App
+# React Tic-Tac-Toe with AI
+Welcome to **React Tic-Tac-Toe with AI**, a fun and interactive web-based implementation of the classic Tic-Tac-Toe game, designed using **React**. This version allows a single player to compete against a simple AI in real-time.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+[![Live Demo](https://img.shields.io/badge/Live-Demo-green?style=flat-square&logo=vercel)](https://react-tic-tac-toe-ashen-two.vercel.app/)
+
+---
+
+## Project Overview
+This project was built to provide an engaging and nostalgic gaming experience, powered by modern web technologies. It showcases:
+- Clean UI
+- Turn-based game logic
+- Simple AI opponent logic
+- Score tracking and game reset functionality
+
+---
+
+## Live Demo
+
+👉 [Click here to play](https://react-tic-tac-toe-ashen-two.vercel.app/)
+
+---
+
+## Features
+
+- Single-player mode against a basic AI
+- Real-time board updates
+- Win detection and reset mechanism
+- Score tracking for both the player and AI
+- Clean, intuitive interface
+- Responsive layout (desktop & mobile-friendly)
+
+---
+
+## Tech Stack
+
+| Technology                      |    Purpose |
+
+| [React](https://reactjs.org/)   | Frontend framework |
+| JavaScript (ES6+)               | Logic and interactivity |
+| HTML & CSS                      | Markup and styling |
+| [Vercel](https://vercel.com/)   | Deployment platform |
+| Git & GitHub                    | Version control and hosting |
+
+---
+
+## AI Logic (Summary)
+
+The AI used in this project is a **basic move selector**. It chooses the first available cell from the game board — giving players a fighting chance. 
+
+---
+
+## Getting Started (Local Development)
+
+### Prerequisites
+- Node.js v18+
+- npm
+
+### Installation
+git clone https://github.com/your-username/react-tic-tac-toe.git
+cd react-tic-tac-toe
+npm install
+npm start
 
 ## Available Scripts
-
 In the project directory, you can run:
+npm start
+Runs the app in development mode. Open http://localhost:3000 to view it.
+npm run build
+Builds the app for production to the build folder.
 
-### `npm start`
+## Deployment
+This project is deployed with Vercel:
+npm run build
+Push to GitHub and connect your repo to Vercel — it handles the rest automatically.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Future Improvements
+Add difficulty levels (Easy, Medium, Hard)
+Improve AI with Minimax Algorithm
+Add sound effects and animations
+Implement multiplayer support
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Author
+Abdulrahman Laoye
+LinkedIn • GitHub
 
-### `npm test`
+## License
+This project is licensed under the MIT License.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Feel free to fork, modify, and enhance this project! Contributions are welcome.
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
